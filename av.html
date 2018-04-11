@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ishaan Kolluri</title>
-    <link rel="shortcut icon" href="http://www.rocky.me/favicon.ico" type="image/x-icon" />
+<title>AV Research — Ishaan Kolluri</title>
+    <link rel="shortcut icon" href="http://www.ishaankolluri.com/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/main.css"  >
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -16,6 +16,7 @@
     <script src="https://use.fontawesome.com/124f5f4c35.js"></script>
 	<script src="js/transition.js"></script>
     <script src="js/zoom.min.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -25,7 +26,7 @@
     <a class="header" href="index.html"><i class="fa fa-arrow-left fixed" aria-hidden="true"></i></a>
 </div>
 
-<div class="hero-av pad-m animated fadeIn"></div>	
+<div class="hero av-cover pad-m animated fadeIn"></div>	
     
 <div id="page-wrap-projects">
     <div class="clearfix pad-s animated fadeIn">
@@ -57,13 +58,6 @@
         <p class="caption">Theorycrafting how people currently perceive autonomous vehicle states.</p>
     </div>
     <br><br><br>
-    <!-- <div class="clearfix pad-m">
-        <div class="col-xs-12">
-		<video width="100%" height="auto" no-controls autoplay loop>
-			<source src="img/sling/upload-flow.mov" type="video/mp4">Your browser does not support the video tag.
-		</video>
-	   </div>
-    </div> -->
     <div class="clearfix pad-s">
         <div class="col-md-8 col-md-offset-2">
         <p>
@@ -78,9 +72,9 @@
     <div class="clearfix pad-s">
         <div class="clearfix">
             <img class="img-responsive col-md-6 pad-xs" data-action="zoom" src="img/av/av_proto3.jpg">
-            <img class="img-responsive col-md-6 pad-xs" data-action="zoom" src="img/av/av_paper.jpg">
+            <img class="img-responsive col-md-6 pad-xs" data-action="zoom" src="img/av/av_ross.jpg">
             <img class="img-responsive col-xs-12 pad-s" data-action="zoom" src="img/av/av_midfi_green.png">
-            <p class="caption">Testing simple concepts.</p>
+            <p class="col-md-12 col-xs-12 caption">Testing simple concepts with locals in exchange for cookies.</p>
         </div>
     </div>
     <div class="clearfix pad-s">
@@ -96,16 +90,24 @@
                 <img class="img-responsive col-md-6 pad-xs" data-action="zoom" src="img/av/av_final_1.png">
                 <img class="img-responsive col-md-6 pad-xs" data-action="zoom" src="img/av/av_final_3.png">
                 <img class="img-responsive col-xs-12 pad-s" data-action="zoom" src="img/av/av_final_2.png">
-                <p class="caption">The vehicle state is almost always green—pedestrians have the right of way.</p>
+                <p class="col-md-12 col-xs-12 caption">The vehicle state is almost always green—pedestrians have the right of way.</p>
             </div>
     </div>
     <!--Would like to add a flowchart of the cases where each display would show up-->
-
+    <div class="clearfix pad-s">
+        <div class="clearfix">
+            <img class="img-responsive col-xs-12 pad-s" data-action="zoom" src="img/av/av_flow.jpg">
+            <p class="col-md-12 col-xs-12 caption">A basic workflow of the autonomous vehicle display in different on-road scenarios.</p>
+        </div>
+</div>
     <div class="clearfix pad-s">
         <div class="col-md-8 col-md-offset-2">
         <p>
             <span class="header">Optimization and accessibility</span><br>
             <span class="body">We purposefully avoiding overdesigning this interface. There are a variety of weather and light conditions that this display needs to account for, and given the time, we would like to test a physical prototype that can work in multiple usage contexts.</span>
+        </p>
+        <p>
+            <span class="body">We struggled to identify situations where an autonomous vehicle would need to assert its right of way—there are very view legal circumstances for this. People told us they didn't like the confrontational nature of an alert, and in the future, we'd like to continue heavily iterating on the use cases of a "red" state for pedestrians.</span>
         </p>
         <p>
             <span class="body">Humans also process sound faster than sight. Designing with sound in mind would make this experience friendly to those with visual disabilities, and it's an important next step that has to be discussed as we enter a world with both human and machine drivers.</span>
