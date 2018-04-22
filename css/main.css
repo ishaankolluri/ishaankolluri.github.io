@@ -21,14 +21,22 @@
  line-height:30px;
 }
 
+.resp {
+  font-family: "HKGroteskItalic", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ed6564;
+  top: -5px
+}
+
 .header {
- font-family: 'Oswald', sans-serif;
- font-size: 30px;
+ font-family: 'HKGroteskBold', sans-serif;
+ font-size: 24px;
  line-height: 70px;
 }
 
 .primary {
- font-family: 'Work Sans', sans-serif;
+ font-family: 'HKGroteskBold', sans-serif;
  font-weight: 700;
  font-size: 15px;
  line-height:30px;
@@ -161,7 +169,11 @@ margin-right: 15px;
 /*Home Projects --------------------------------------------------------------*/
 
 .project-box {
- padding: 20px;
+ padding: 0px 20px 20px 20px;
+}
+
+.project-header {
+  padding: 20px 20px 0px 20px;
 }
 
 .box-shadow {
@@ -287,13 +299,13 @@ box-shadow: 0px 25px 40px -15px rgba(186 ,196 ,233 ,1);
    }
    
    .header {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'HKGroteskBold', sans-serif;
     font-size: 18px;
     margin-bottom: 0px;
    }
    
    .primary {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'HKGroteskBold', sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height:30px;
