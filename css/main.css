@@ -80,7 +80,7 @@
 
 .fixed {
  position: fixed;
- font-size: 24px!important;
+ font-size: 36px!important;
  z-index: 100;
  padding-top: 20px;
  padding-left: 20px;
@@ -259,6 +259,9 @@ background-position: center center;
   background-image: url(../img/as/as_cover.jpg);
 }
 
+.about-cover {
+  background-image: url(../img/about/about-cover2.jpg);
+}
 @media only screen and (max-width: 750px) {
  .hero{
      height: 300px;
