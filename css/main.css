@@ -13,6 +13,16 @@
   padding-top: 200px;
 }
 
+.inner-padding {
+  padding: 25px;
+}
+
+.prof-size {
+  width: 100%;
+  height: auto;
+}
+
+
 /*Fonts --------------------------------------------------------------*/
 .body {
  font-family: 'Work Sans', sans-serif;
@@ -336,5 +346,9 @@ box-shadow: 0px 25px 40px -15px rgba(186 ,196 ,233 ,1);
      margin-bottom: 20px;
    }
 
+   .prof-size {
+    width: 50%;
+    height: auto;
+  }
 
  }
