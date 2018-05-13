@@ -154,6 +154,9 @@ a:visited {
 margin-bottom: 15px;
 }
 
+.pad-top-s {
+  margin-top: 40px;
+}
 
 .pad-s {
 margin-bottom: 40px;
@@ -241,7 +244,7 @@ background: rgba(255,255,255,0.95);
 /*Projects --------------------------------------------------------------*/
 .hero {
  width: 100%;
- height: 400px;
+ height: 300px;
  background-size: cover;
 background-repeat:no-repeat;
 background-position: center center;
@@ -262,6 +265,27 @@ background-position: center center;
 .about-cover {
   background-image: url(../img/about/about-cover2.jpg);
 }
+
+.tldr {
+  background-color: #262626;
+}
+
+.tldr-primary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height:25px;
+    color: #fafafa;
+}
+
+.tldr-body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height:23px;
+    color: #fafafa
+}
+
 @media only screen and (max-width: 750px) {
  .hero{
      height: 300px;
@@ -324,7 +348,7 @@ box-shadow: 0px 25px 40px -15px rgba(186 ,196 ,233 ,1);
     font-weight: 900;
     margin-bottom: 0px;
    }
-   
+
    .primary {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
