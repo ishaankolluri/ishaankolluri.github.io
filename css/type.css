@@ -1,0 +1,165 @@
+
+/*Fonts --------------------------------------------------------------*/
+  p, ul {
+    font-family: 'FFTisaSansLight', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height:30px;
+    padding-bottom: 5px;
+  }
+
+ .resp {
+   font-family: "FFTisaSansLight", sans-serif;
+   font-size: 13px;
+   font-style: italic;
+   line-height: 20px;
+   color: #f28480;
+   top: -5px
+ }
+
+ .header {
+  font-family: 'FFTisaSansBold', sans-serif;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 900;
+  color: #333;
+ }
+
+ .primary {
+  font-family: 'FFTisaSansBold', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height:30px;
+  color: #333;
+ }
+
+ .secondary {
+  font-family: 'FFTisaSansLight', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height:26px;
+  color: #333;
+ }
+
+ .caption {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Work Sans", sans-serif
+ }
+
+ .italic {
+  font-style: italic
+ }
+
+ .text-center {
+  text-align: center;
+ }
+
+ .fixed {
+  position: fixed;
+  font-size: 36px!important;
+  z-index: 100;
+  padding-top: 20px;
+  padding-left: 20px;
+ }
+
+ .fixed:hover {
+  color: #ed6564!important;
+ }
+
+ .fa {
+  color: #999;
+ }
+
+ .underline {
+ border-bottom: 1px solid #ed6564;
+ padding-bottom: 2px;
+ }
+
+ a.underline:hover {
+ color: #ed6564!important;
+ }
+
+ a {
+ text-decoration:none !important;
+ color: inherit !important;
+ -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+ }
+
+ a:hover {
+ color: #f2bfbd;
+ }
+
+ a.highlight {
+ position:relative;
+ text-decoration: none;
+  color: #333;
+ }
+
+ a:visited {
+  color: inherit!important;
+ }
+
+ .tldr-primary {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height:25px;
+  color: #fafafa;
+}
+
+.tldr-body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height:23px;
+  color: #fafafa
+}
+
+@media only screen and (max-width: 750px) {
+  .body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:28px;
+   }
+
+   .header {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 0px;
+   }
+
+   .primary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:30px;
+    color: #333;
+   }
+
+   .secondary {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height:30px;
+    color: #999;
+   }
+
+   .intro-padding {
+     padding-top: 30px;
+   }
+
+   .bio-padding {
+     margin-bottom: 20px;
+   }
+
+   .prof-size {
+    width: 50%;
+    height: auto;
+  }
+
+ }
