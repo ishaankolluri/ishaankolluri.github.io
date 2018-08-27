@@ -1,0 +1,52 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3622191, 2018-08-15T00:54:18-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FF Tisa Sans Thin by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/tisa-sans/pro-thin/
+ * 
+ * Webfont: FF Tisa Sans Light by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/tisa-sans/pro-light/
+ * 
+ * Webfont: FF Tisa Sans Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/tisa-sans/pro-regular/
+ * 
+ * Webfont: FF Tisa Sans Medium by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/tisa-sans/pro-medium/
+ * 
+ * Webfont: FF Tisa Sans Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/tisa-sans/pro-bold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3622191
+ * Licensed pageviews: 50,000
+ * Webfonts copyright: 2011 published by FontShop International GmbH
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/37452f");
+
+  
+@font-face {font-family: 'FFTisaSansThin';src: url('webfonts/37452F_0_0.eot');src: url('webfonts/37452F_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37452F_0_0.woff2') format('woff2'),url('webfonts/37452F_0_0.woff') format('woff'),url('webfonts/37452F_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FFTisaSansLight';src: url('webfonts/37452F_1_0.eot');src: url('webfonts/37452F_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37452F_1_0.woff2') format('woff2'),url('webfonts/37452F_1_0.woff') format('woff'),url('webfonts/37452F_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FFTisaSansRegular';src: url('webfonts/37452F_2_0.eot');src: url('webfonts/37452F_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37452F_2_0.woff2') format('woff2'),url('webfonts/37452F_2_0.woff') format('woff'),url('webfonts/37452F_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FFTisaSansMedium';src: url('webfonts/37452F_3_0.eot');src: url('webfonts/37452F_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37452F_3_0.woff2') format('woff2'),url('webfonts/37452F_3_0.woff') format('woff'),url('webfonts/37452F_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FFTisaSansBold';src: url('webfonts/37452F_4_0.eot');src: url('webfonts/37452F_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37452F_4_0.woff2') format('woff2'),url('webfonts/37452F_4_0.woff') format('woff'),url('webfonts/37452F_4_0.ttf') format('truetype');}
+ 
