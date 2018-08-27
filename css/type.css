@@ -13,7 +13,7 @@
    font-size: 13px;
    font-style: italic;
    line-height: 20px;
-   color: #f28480;
+   color: #6fad74;
    top: -5px
  }
 
@@ -45,7 +45,7 @@
   font-size: 12px;
   font-style: italic;
   text-align: center;
-  font-family: "Work Sans", sans-serif
+  font-family: "FFTisaSansThin", sans-serif
  }
 
  .italic {
@@ -65,7 +65,7 @@
  }
 
  .fixed:hover {
-  color: #ed6564!important;
+  color: #6fad74!important;
  }
 
  .fa {
@@ -73,12 +73,12 @@
  }
 
  .underline {
- border-bottom: 1px solid #ed6564;
+ border-bottom: 1px solid #6fad74;
  padding-bottom: 2px;
  }
 
  a.underline:hover {
- color: #ed6564!important;
+ color: #6fad74!important;
  }
 
  a {
@@ -89,7 +89,7 @@
  }
 
  a:hover {
- color: #f2bfbd;
+ color: #6fad74;
  }
 
  a.highlight {
@@ -103,38 +103,38 @@
  }
 
  .tldr-primary {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'FFTisaSansBold', sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   line-height:25px;
   color: #fafafa;
 }
 
 .tldr-body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'FFTisaSansLight', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height:23px;
   color: #fafafa
 }
 
 @media only screen and (max-width: 750px) {
   .body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'FFTisaSansLight', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height:28px;
    }
 
    .header {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'FFTisaSansBold', sans-serif;
     font-size: 18px;
     font-weight: 900;
     margin-bottom: 0px;
    }
 
    .primary {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'FFTisaSansBold', sans-serif;
     font-weight: 700;
     font-size: 15px;
     line-height:30px;
@@ -142,11 +142,11 @@
    }
 
    .secondary {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'FFTisaSansLight', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height:30px;
-    color: #999;
+    color: #333;
    }
 
    .intro-padding {
